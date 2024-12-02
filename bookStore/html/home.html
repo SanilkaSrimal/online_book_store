@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Bookstore</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header styling */
+    .header {
+      background-color: #002776;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-logo img {
+      height: 50px;
+    }
+
+    .header-logo span {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+
+    /* Top navigation */
+    .top-nav {
+      background-color: #002776;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      color: white;
+    }
+
+    .top-nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Search bar and main menu */
+    .search-bar {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .search-bar input[type="text"] {
+      width: 400px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .search-bar button {
+      padding: 10px;
+      background-color: #002776;
+      color: white;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+
+    /* Main navigation */
+    .main-nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      padding: 10px;
+    }
+
+    .main-nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    /* Banner area */
+    .banner {
+      display: flex;
+      justify-content: center;
+      background-color: #fff700;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .banner img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 20%;
+      padding: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #0033cc;
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    /* Book section */
+    .books-section {
+      width: 80%;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .book {
+      width: 22%;
+      text-align: center;
+    }
+
+    .book img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .book h3 {
+      font-size: 14px;
+      margin: 10px 0 5px;
+    }
+
+    .book span {
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    /* Page layout */
+    .content {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-logo">
+      <img src="C:\Users\sanil\Downloads\95f8588d6469a16271ea2d2fad419d00.png" alt="Logo">
+      <span>Online book store</span>
+    </div>
+    <div>
+      <a href="#" style="color: white; margin-right: 20px;">Hello, Sign In</a>
+      <span>0 <img src="heart-icon.png" alt="Wishlist" style="vertical-align: middle; margin-right: 10px;"></span>
+      <span>0 <img src="C:\Users\sanil\Downloads" alt="Cart" style="vertical-align: middle;"> රු0.00</span>
+    </div>
+  </div>
+
+  <!-- Top Navigation -->
+  <div class="top-nav">
+    <a href="#">Best Sellers</a>
+    <a href="#">New Arrival</a>
+    <a href="#">Events</a>
+    <a href="#">EDUTV</a>
+    <a href="#">Our Blog</a>
+  </div>
+
+  <!-- Search Bar and Main Navigation -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search Products by Title, Author, Publisher, Category, ISBN, Brand...">
+    <button>Search</button>
+  </div>
+
+  <div class="main-nav">
+    <a href="#">Home</a>
+    <a href="#">Offers</a>
+    <a href="#">Ebooks</a>
+    <a href="#">Book Genie</a>
+    <a href="#">E-Vouchers</a>
+    <a href="#">Study Abroad</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Sidebar Links -->
+    <div class="sidebar">
+      <a href="#">Best Sellers</a>
+      <a href="#">New Arrival</a>
+      <a href="#">Award Winners</a>
+      <a href="#">Offers</a>
+      <a href="#">On-Demand</a>
+      <a href="#">Office Stationery</a>
+      <a href="#">Bundle Offers</a>
+      <a href="#">Authors</a>
+      <a href="#">Publisher</a>
+      <a href="#">Stationery</a>
+      <a href="#">Gift Vouchers</a>
+      <a href="#">School Book Lists</a>
+      <a href="#">Toys</a>
+    </div>
+
+    <!-- Book Display Section -->
+    <div class="books-section">
+      <!-- Example Book Item -->
+      <div class="book">
+        <img src="../newPr/img/harry-potter-deathly-hallows-book-cover-i214933.jpg" alt="Book 1">
+        <h3>Harry Potter 1</h3>
+        <span>රු950.00</span>
+      </div>
+      <div class="book">
+        <img src="../newPr/img/9781408855904.webp" alt="Book 2">
+        <h3>Harry Potter 2</h3>
+        <span>රු700.00</span>
+      </div>
+      <div class="book">
+        <img src="./img/61g60+r7ZWL._AC_UF894,1000_QL80_.jpg" alt="Book 3">
+        <h3>Tin Tin</h3>
+        <span>රු1,200.00</span>
+      </div>
+      <div class="book">
+        <img src="./img/61UEv2CUB7L._AC_UF1000,1000_QL80_.jpg" alt="Book 4">
+        <h3>Zorro</h3>
+        <span>රු450.00</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
