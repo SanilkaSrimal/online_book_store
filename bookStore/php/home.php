@@ -222,42 +222,42 @@ $user_name = isset($_SESSION['user_name']) ? $_SESSION['user_name'] : 'Sign In';
     <!-- Books Section -->
     <div class="books-section">
       <div class="book">
-        <img src="../img/harry-potter-deathly-hallows-book-cover-i214933.jpg" alt="Book 1">
+      <a href="payment.php" alt="payment"><img src="../img/harry-potter-deathly-hallows-book-cover-i214933.jpg" alt="Book 1"></a>
         <h3>Harry Potter</h3>
         <span>රු950.00</span>
       </div>
       <div class="book">
-        <img src="../img/9781408855904.webp" alt="Book 2">
+        <a href="payment.php" alt="payment"><img src="../img/9781408855904.webp" alt="Book 2"></a>
         <h3>Harry Potter 2</h3>
         <span>රු700.00</span>
       </div>
       <div class="book">
-        <img src="../img/61g60+r7ZWL._AC_UF894,1000_QL80_.jpg" alt="Book 3">
+      <a href="payment.php" alt="payment"><img src="../img/61g60+r7ZWL._AC_UF894,1000_QL80_.jpg" alt="Book 3"></a>
         <h3>Tin Tin</h3>
         <span>රු1,200.00</span>
       </div>
       <div class="book">
-        <img src="../img/61UEv2CUB7L._AC_UF1000,1000_QL80_.jpg" alt="Book 4">
+      <a href="payment.php" alt="payment"><img src="../img/61UEv2CUB7L._AC_UF1000,1000_QL80_.jpg" alt="Book 4"></a>
         <h3>Zorro 1</h3>
         <span>රු450.00</span>
       </div>
       <div class="book">
-        <img src="../img/hp2.jpg" alt="Book 5">
+      <a href="payment.php" alt="payment"><img src="../img/hp2.jpg" alt="Book 5"></a>
         <h3>Harry Potter</h3>
         <span>රු850.00</span>
       </div>
       <div class="book">
-        <img src="../img/zorro.jpg" alt="Book 6">
+      <a href="payment.php" alt="payment"><img src="../img/zorro.jpg" alt="Book 6"></a>
         <h3>Zorro 2</h3>
         <span>රු1150.00</span>
       </div>
       <div class="book">
-        <img src="../img/loadofthering.jpg" alt="Book 7">
+      <a href="payment.php" alt="payment"><img src="../img/loadofthering.jpg" alt="Book 7"></a>
         <h3>Load Of the ring</h3>
         <span>රු650.00</span>
       </div>
       <div class="book">
-        <img src="../img/jackson.jpg" alt="Book 8">
+      <a href="payment.php" alt="payment"><img src="../img/jackson.jpg" alt="Book 8"></a>
         <h3>Percy Jackson</h3>
         <span>රු450.00</span>
       </div>
